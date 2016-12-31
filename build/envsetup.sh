@@ -84,7 +84,7 @@ function eat()
             done
             echo "Device Found.."
         fi
-        if (adb shell getprop ro.xosp.device | grep -q "$XOSP_BUILD"); then
+        if (adb shell getprop ro.cm.device | grep -q "$XOSP_BUILD"); then
             # if adbd isn't root we can't write to /cache/recovery/
             adb root
             sleep 1
