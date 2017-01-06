@@ -15,6 +15,34 @@
 -->
 <changelog bulletedList="true">
     
+    <changelogversion versionName="RL7 Revision 2" changeDate="Jan 06,2017">
+        <changelogtext>Switched to LineageOS as Base (RIP CyanogenMod)</changelogtext>
+        <changelogtext>Many optimizations and improvements (Check frameworks_base on Github for all the 100+ commits)</changelogtext>
+        <changelogtext>Fixed BackLight settings for some Devices</changelogtext>
+        <changelogtext>Fixed Huge Bluetooth icon in Settings</changelogtext>
+        <changelogtext>Adjusted StatusBar Battery icon's Padding</changelogtext>
+        <changelogtext>Updated all SystemUI drawables with the latest ones from the Xperia XZ</changelogtext>
+        <changelogtext>Added Language QS Toggle</changelogtext>
+        <changelogtext>Added NFC QS Toggle</changelogtext>
+        <changelogtext>Added Caffeine QS Toggle</changelogtext>
+        <changelogtext>Added Reboot/Recovery QS Tile</changelogtext>
+        <changelogtext>Added Show Volume QS Tile</changelogtext>
+        <changelogtext>Added Sound QS Tile</changelogtext>
+        <changelogtext>Added a charging indicator for the StatusBar Battery icon</changelogtext>
+        <changelogtext>Update Music to version: 9.3.4.A.1.1</changelogtext>
+        <changelogtext>Update Album to version: 8.0.A.1.18</changelogtext>
+        <changelogtext>Update Xperia Home to version: 10.2.A.2.10</changelogtext>
+        <changelogtext>Update Weather to version 1.3.A.0.12</changelogtext>
+        <changelogtext>Update all Xperia Frameworks from the latest XZ Firmware: 39.2.A.0.374</changelogtext>
+        <changelogtext>Removed PhotoAnalyzer</changelogtext>
+        <changelogtext>Update PhotoEditor from the latest XZ Firmware: 39.2.A.0.374</changelogtext>
+        <changelogtext>Update XperiaServices from the latest XZ Firmware: 39.2.A.0.374</changelogtext>
+        <changelogtext>Update SemcClock from the latest XZ Firmware: 39.2.A.0.374</changelogtext>
+        <changelogtext>Update SemcEmail from the latest XZ Firmware: 39.2.A.0.374</changelogtext>
+        <changelogtext>Fix weird text in BatteryAdviser</changelogtext>
+        <changelogtext>Update SemcCalendar to version: 20.1.A.1.27</changelogtext>
+    </changelogversion>
+
     <changelogversion versionName="RL7 Revision 1" changeDate="Dec 25,2016">
         <changelogtext> Initial XOSP Nougat Release </changelogtext>
         <changelogtext><![CDATA[All the initial included features can be found <a href="https://github.com/XOSP-Project/android_vendor_xosp/blob/xosp-n/README.mkdn">here</a>]]></changelogtext>
